@@ -1,0 +1,13 @@
+* {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  .logo {
+    width: 134px;
+  }
+  .header-phone {
+    display: none !important;
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=media.css.map */

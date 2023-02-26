@@ -1,0 +1,506 @@
+@media only screen and (max-width: 1199px) {
+    .header-top {
+        align-items: center;
+    }
+
+    .logo {
+        width: 134px;
+        padding: 0;
+        
+    }
+
+    .header-phone {
+        margin-left: 0;
+    }
+
+    ul.menu-header {
+        li {
+            margin-right: 50px;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+    .email-link, .phone-link {
+        padding: 6px 0;
+        display: block;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+
+    .btn {
+        margin: 0;
+    }
+
+    .modal {
+        width: 450px;
+    }
+
+    .form-text{
+        word-wrap: break-word;
+        padding: 40px 40px 30px 40px;
+        font-size: 20px;
+    }
+
+    .form-field-chekbox {
+        font-size: 12px;
+        word-wrap: normal;
+        margin-bottom: 30px;
+    }
+
+    .modal-close {
+        left: 200px;
+        bottom: 614px;
+    }
+
+    .modal-form{
+        padding: 0 40px 30px 40px;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    ul.features li {
+        width: 354px;
+        margin-bottom: 30px;
+    }
+
+    .feature-img {
+        height: 120px;
+        width: 354px;
+    }
+
+    h4 {
+        padding: 60px 0 30px 0;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .members {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0 30px 0;
+    }
+
+    .card {
+        width: 354px;
+        margin-bottom: 30px;
+    }
+
+    .team-img{
+        width: 354px;
+        height: 374px;
+    }
+
+    .clients {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul.clients li {
+        margin-bottom: 30px;
+        width: 226px;
+        height: 92px;
+    }
+
+    .client-icon-first {
+        width: 226px;
+        height: 92px;
+    }
+
+    .client-icon-second {
+        width: 226px;
+        height: 92px;
+    }
+
+    .client-icon-third {
+        width: 226px;
+        height: 92px;
+    }
+
+    .client-icon-fourth {
+        width: 226px;
+        height: 92px;
+    }
+
+    .client-icon-fifth {
+        width: 226px;
+        height: 92px;
+    }
+
+    .client-icon-sixth {
+        width: 226px;
+        height: 92px;
+    }
+
+    .blocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .block-left {
+        display: inline-block;
+        margin-bottom: 60px;
+    }
+
+    address {
+        text-align: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .block-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .footer-input {
+        width: 450px;
+        margin: 31px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .header-mini {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu-header {
+        padding: 0 40px;
+    }
+
+    ul.menu-header li {
+        display: block;
+        margin-bottom: 36px;
+    }
+
+    .menu-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    .menu-link.active {
+        color: $primaryColor;
+    }
+
+    .menu-link::after {
+        display: none;
+    }
+
+    .header-right-list {
+        margin-top: 302px;
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-phone {
+        order: 1;
+        margin-bottom: 32px;
+    }
+
+    .header-email {
+        order: 2;
+    }
+
+    .phone-link {
+        color: $primaryColor;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        &::before {
+            display: none;
+        }
+    }
+
+    .email-link {
+        color: $textLightColor;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        &::before {
+            display: none;
+        }
+    }
+
+    .header-social-list {
+        display: block;
+    }
+
+    .hero {
+        height: 400px;
+        padding: 118px 60px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 26px;
+        white-space: nowrap;
+        padding-bottom: 30px;
+    }
+
+    .btn {
+        margin: 0;
+    }
+
+    .modal {
+        width: 450px;
+    }
+
+    .form-text{
+        word-wrap: break-word;
+        padding: 40px 40px 30px 40px;
+        font-size: 20px;
+    }
+
+    .form-field-chekbox {
+        font-size: 12px;
+        word-wrap: normal;
+        margin-bottom: 30px;
+    }
+
+    .modal-close {
+        left: 200px;
+        bottom: 614px;
+    }
+
+    .modal-form{
+        padding: 0 40px 30px 40px;
+    }
+
+    .features {
+        padding: 60px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.features li {
+        display: block;
+        width: 450px;
+    }
+
+    ul.features li:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .feature-img {
+        margin-bottom: 30px;
+        height: 120px;
+        width: 450px;
+    }
+
+    h2 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 0 0 10px 0;
+    }
+
+    h4 {
+        padding: 60px 0 30px 0;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 30px 0;
+    }
+
+    .card {
+        width: 450px;
+        margin-bottom: 30px;
+    }
+
+    .team-img{
+        width: 450px;
+        height: 460px;
+    }
+
+    h5 {
+        font-weight: 700;
+        font-size: 28px;    
+        margin: 60px 0 30px 0;
+        padding: 0;
+    }
+
+    .clients {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul.clients li {
+        margin-bottom: 30px;
+        width: 210px;
+        height: 92px;
+    }
+
+    .client-icon-first {
+        width: 210px;
+        height: 92px;
+    }
+
+    .client-icon-second {
+        width: 210px;
+        height: 92px;
+    }
+
+    .client-icon-third {
+        width: 210px;
+        height: 92px;
+    }
+
+    .client-icon-fourth {
+        width: 210px;
+        height: 92px;
+    }
+
+    .client-icon-fifth {
+        width: 210px;
+        height: 92px;
+    }
+
+    .client-icon-sixth {
+        width: 210px;
+        height: 92px;
+    }
+
+    .blocks {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .block-left {
+        margin: 0;
+        padding: 60px 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    address {
+        text-align: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .links-list {
+        padding-bottom: 60px;
+    }
+
+    .block-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-form {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-input {
+        display: block;
+        margin: 20px 0;
+        width: 450px;
+    }
+
+    .footer-btn {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .menu-button {
+        margin-top: 30px;
+    }
+
+    .projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project {
+        width: 450px;
+    }
+
+    .project-img {
+        width: 450px;
+        height: 294px;
+    }
+
+    .bgc-thumb {
+        width: 450px;
+        height: 294px;
+    }
+
+    .project-thumb {
+        width: 450px;
+        height: 294px;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+}

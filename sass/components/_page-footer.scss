@@ -1,0 +1,114 @@
+.logo-footer {
+    height: 28px;
+}
+
+address {
+    color: #ffffff;
+    font-style: normal;
+}
+
+.address-list {
+    padding: 20px 0 0 0;
+}
+
+ul.address-list li {
+    padding: 0 0 9px 0;
+}
+
+.contact-footer {
+    color: #FFFFFF99;
+}
+
+.blocks {
+    white-space: nowrap;
+    padding: 60px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-left {
+    display: inline-block;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.links-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5px;
+    margin-top: 20px;
+}
+
+.links-list li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.footer-border-icon {
+    fill: rgba(255, 255, 255, 0.1);
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.footer-border-icon:hover {
+    fill: #2196F3;
+}
+
+.footer-form {
+    margin-top: 20px;
+}
+
+.footer-input {
+    width: 349px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding-left: 16px;
+    outline: none;
+}
+
+.btn-footer {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 0 32px;
+    line-height: 50px;
+    border-radius: 4px;
+    margin-left: 12px;
+}
+
+.btn-footer::after{
+    content: "";
+    -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0IDBMMCAxMy41TDcuNjY5OTQgMTYuMzQwN0wxOS41IDUuMjUwMDJMMTAuNTAxNyAxNy4zODk2TDEwLjUwOSAxNy4zOTIzTDEwLjUgMTcuMzg5NlYyNC4wMDAxTDE0LjgwMTMgMTguOTgyTDIwLjI1MDEgMjEuMDAwMUwyNCAwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);
+    -webkit-mask-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    padding: 13px 28px 13px 10px;
+    position: relative;
+    top: 9px;
+    left: 13px;
+}
+
+.footer-input:focus {
+    border: 1px solid #2196F3;
+}
+
+.footer {
+    background-color: #2F303A;
+}
